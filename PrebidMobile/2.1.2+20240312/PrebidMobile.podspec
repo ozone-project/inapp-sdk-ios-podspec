@@ -32,7 +32,7 @@ integrates with the Ozone prebid server."
   s.platform     	   = :ios, "12.0"
   s.swift_version 	   = '5.0'
 # NOTE that our tags have to be called ozone-[M.m.b] because the [M.m.b] names are already taken by prebid upstream repo
-  s.source      	   = { :git => "https://github.com/ozone-project/inapp-sdk-ios-code.git", :tag => "ozone-#{s.version}" }
+  s.source      	   = { :git => "https://github.com/ozone-project/inapp-sdk-ios-code.git", :tag => "ozone-2.1.2+20240312" }
   s.xcconfig 		   = { :LIBRARY_SEARCH_PATHS => '$(inherited)',
 			       :OTHER_CFLAGS => '$(inherited)',
 			       :OTHER_LDFLAGS => '$(inherited)',
